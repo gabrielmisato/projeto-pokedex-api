@@ -1,0 +1,50 @@
+@media screen and (min-width:380px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    body {
+        background-color: #dadfe8;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .top-card .identification .number {
+        font-size: 1rem;
+    }
+
+    .top-card .image img {
+        transform: translateY(50px);
+    }
+
+    .bottom-card .option {
+        gap: 4.2rem;
+    }
+}

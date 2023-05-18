@@ -1,0 +1,109 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #77c850;
+}
+
+.top-card {
+    padding: 2rem;
+    height: 45%;
+}
+
+.top-card a {
+    color: #fff;
+}
+
+.top-card .identification {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.top-card .identification .name {
+    font-size: 1.625rem;
+}
+
+.top-card .identification .number {
+    font-size: .625rem;
+    transform: translateY(20px);
+}
+
+.top-card .type {
+    display: flex;
+    gap: 1rem;
+}
+
+.top-card .type span {
+    padding: .25rem 1rem;
+    color: #fff;
+    background-color: #e4e4e4a1;
+    border-radius: 1rem;
+    font-size: .725rem;
+    transform: translateY(-10px);
+}
+
+.top-card .image {
+    text-align: center;
+}
+
+.top-card .image img {
+    max-width: 100%;
+}
+
+.bottom-card {
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: #fff;
+}
+
+.bottom-card .option {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    font-size: 1rem;
+}
+
+.bottom-card .option span {
+    padding-bottom: 1.25rem;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.bottom-card .option span:hover {
+    font-weight: bold;
+    border-bottom: 2px solid #0000ff;
+}
+
+.bottom-card .detail,
+.breeding {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 0.85rem;
+}
+
+.bottom-card .breeding>span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bottom-card .specie,
+.height,
+.weight,
+.abilities,
+.gender {
+    display: flex;
+    gap: 4rem;
+}
+
+.bottom-card .egg-group {
+    display: flex;
+    gap: 2rem;
+}
+
+.bottom-card .egg-cycle {
+    display: flex;
+    gap: 2.85rem;
+}
